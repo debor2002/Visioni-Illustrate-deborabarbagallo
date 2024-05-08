@@ -1,0 +1,518 @@
+body {
+    background-color: rgb(255, 246, 241);
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+    }
+    
+      img {
+        max-width: 100%;
+      
+    }
+    section.img {
+        max-width: 100%;
+        margin-left: 50px;
+        padding: 0%;
+        margin-bottom: 0;
+    
+    }
+   
+    div.imgg {
+        max-width: 100%;
+        margin-left: 60px;
+        padding: 0%;
+        margin-bottom: 0;
+    }
+    
+        section.button1 {
+        outline: none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        font: bold 12px Arial, Helvetica, sans-serif;
+        padding: 10px 20px;
+        margin-top: 30px;
+        }
+        section.button2 {
+        outline: none;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+         font: bold 12px Arial, Helvetica, sans-serif;
+         padding: 10px 20px;
+         margin-top: 30px;
+            }
+         section.button3 {
+         outline: none;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+         font: bold 12px Arial, Helvetica, sans-serif;
+         padding: 10px 20px;
+         margin-top: 30px;
+             }  
+               
+        section.button4 {
+         outline: none;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+         font: bold 12px Arial, Helvetica, sans-serif;
+         padding: 10px 20px;
+         margin-top: 30px;
+         }
+
+     section.button1 button {
+        text-align: center;
+        font-size: 40px;
+     }
+     section.button2 button {
+        text-align: center;
+        font-size: 40px;
+        
+     }
+     section.button3 button {
+        text-align: center;
+        font-size: 40px;
+     }
+     section.button4 button {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+     }
+
+    header {
+        background-color: rgb(40, 40, 40);
+        margin:  auto;
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+       
+    }
+    
+    header p {
+        margin-top: 20px ;
+        margin-left: 20px;
+        padding: 10px 10px 10px 10px ;
+       
+    }
+
+    header nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+        margin-top: 20px ;
+        margin-right: 20px;
+        padding: 10px 10px 10px 10px ;
+    }
+    
+
+    header  a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    
+
+    header a:hover {
+        text-decoration: underline;
+    }
+   
+    header nav a {
+      color: white;  
+    }
+    .banner {
+        background-position: center;
+        background-color: rgb(246, 205, 183);
+        padding: 30px 20px;
+        text-align: center;
+        border-radius: 0 0 50px 50px;
+        
+    }
+    .banner h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .banner p {
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+    }
+    section.texta h2 {
+        text-align: center;
+        font-size: 60px;
+    }
+    .banner1 {
+        background-size: 60px;
+        background-position: center;
+        background-color: rgb(246, 205, 183);
+        padding: 50px 20px;
+        margin-left: 90px;
+        margin-right: 90px;
+        border-radius: 50px;
+       
+    }
+
+    .banner1 p {
+        font-size: 30px;
+        padding-left: 60px;
+        margin-left: 60px;
+        padding-right: 60px;
+        text-decoration: none;
+        margin-top: 0;
+      
+    }
+    .banner2 {
+        background-size: 50px;
+        background-position: center;
+        background-color: rgb(246, 205, 183);
+        padding: 50px 20px;
+        text-align: center;
+        border-radius: 0 0 50px 50px;
+    }
+    .banner2 h1 {
+        font-size: 70px;
+        margin: 40px;
+        font-weight: bold;
+        }
+        .banner3 {
+            background-size: 60px;
+            background-position: center;
+            background-color: rgb(246, 205, 183);
+            padding: 50px 20px;
+            margin-left: 90px;
+            margin-right: 90px;
+            border-radius: 50px;
+        }
+        .banner3 p {
+            font-size: 30px;
+            padding-left: 60px;
+            margin-left: 60px;
+            padding-right: 60px;
+            text-decoration: none;
+            margin-top: 0;
+            
+        
+    }
+   section.texta {
+    font-size: 50px;
+   
+   }
+   section.text p {
+    font-size: 30px;
+    text-decoration: none;
+   }
+    
+   section.card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    margin:48px auto;
+    gap:20px;
+    
+    
+}
+section.card1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    margin:48px auto;
+    gap:20px;
+    
+    
+}
+   section.card h2 {
+   margin: 0;
+   padding: 0;
+   font-size: 25px;
+   padding: 30px 30px 30px 30px ;
+   text-align: center;
+   color:black;
+   
+   
+   }
+   section.card img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    color: black;
+    font-weight: normal;
+    border-radius: 20px 20px 0 0;
+   }
+   section.card1 img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    color: black;
+    font-weight: normal;
+    border-radius: 20px;
+   }
+   section.card div {
+    background-color:white;
+    border-radius: 50px;
+   }
+   
+   footer {
+    background-color: rgb(40, 40, 40);
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    display: flex;
+    list-style: none;
+    gap: 500px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+footer  p {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+}
+   
+footer p:hover {
+    text-decoration: underline;
+}
+ 
+section.infoart1 h1 {
+    color: blue;
+    font-size: 100px;
+    margin: 30px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+   
+    
+
+section.infoart1 h2 {
+  
+    font-size: 40px;
+    margin-left: 30px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+   
+
+section.infoart1 p {
+  
+    font-size: 30px;
+    margin-left: 30px;
+   padding-right:  100px;
+   padding-left: 80px;
+   
+}
+section.infoart1 h3 {
+  
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+    
+
+
+section.news img {
+    max-width: 100%;
+    margin-left: 50px;
+   
+}
+section.infoart2 h1 {
+    color: rgb(255, 150, 198);
+    font-size: 100px;
+    margin: 30px;
+    padding-right:  100px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+   
+
+
+section.infoart2 h2 {
+  
+    font-size: 40px;
+    margin-left: 30px;
+    padding-right:  100px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+   
+
+section.infoart2 p {
+  
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right:20px ;
+    padding: right 60px;
+    padding-right:  100px;
+    padding-left: 80px;
+}
+section.infoart2 h3 {
+  
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.infoart3 h1 {
+    color: rgb(255, 170, 1);
+    font-size: 100px;
+    margin: 30px;
+    padding-right:  100px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+
+section.infoart3 h2 {
+  
+    font-size: 40px;
+    margin-left: 30px;
+    padding-right:  100px;
+    padding-left: 80px;
+    font-weight: bold;
+   
+}
+section.infoart3 p {
+  
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right:20px ;
+    padding-right:  100px;
+    padding-left: 80px;
+}
+section.infoart3 h3 {
+  
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+section.text h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+   
+}
+section.info img {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+}
+section.text p {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: right 60px;
+}
+section.card div {
+    background-color: rgb(246, 205, 183);
+    border-radius: 20px;
+   }
+   div.imga {
+    max-width: 100%;
+    margin-left: 90px;
+    padding: 0%;
+}
+div.imgb {
+    max-width: 100%;
+    margin-left: 90px;
+    padding: 0%;
+}
+.banner4 {
+    background-position: center;
+    background-color: rgb(246, 205, 183);
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+    
+}
+.banner4 h1 {
+    font-size: 70px;
+    margin: 40px;
+    font-weight: bold;
+}
+.banner5 {
+    background-position: center;
+    background-color: rgb(246, 205, 183);
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    border-radius: 50px ;
+    padding: 10px 10px 10px 10px
+}
+.banner5 h1 {
+    font-size: 70px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+.banner5 p {
+    font-size: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.banner6 {
+    background-position: center;
+    background-color: rgb(246, 205, 183);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.banner6 h1 {
+    font-size: 70px;
+    margin: 40px;
+    font-weight: bold;
+}
+.banner6 p {
+    font-size: 30px;
+    padding-left: 60px;
+    margin-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+    margin-top: 0;
+    text-align: center;
+}
+div.imgb h1 {
+    font-size: 95px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+
+div.imgc h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+
